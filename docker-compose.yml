@@ -1,0 +1,7 @@
+version: '3.6'
+
+services:
+  activator:
+    build: .
+    stdin_open: true
+    tty: true
