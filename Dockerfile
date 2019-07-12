@@ -8,7 +8,7 @@ RUN pip install --user requests \
   && pip install --user selenium
 
 WORKDIR /
-RUN git clone https://github.com/inAudible-NG/audible-activator.git
+RUN git clone https://github.com/rjchicago/audible-activator.git
 
 WORKDIR /chromedriver
 ARG CHROMEDRIVER_ZIP=chromedriver_linux64.zip
